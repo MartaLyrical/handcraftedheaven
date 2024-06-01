@@ -1,13 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Mukta+Mahee:wght@300&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Cinzel, "Quicksand", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --black: #001524;
+  --skin-color: #fbefe6;
+  --dried-grass: #ffc100;
+  --brown-orange: #c40c0c;
+  --dried-leaf: #e9ead7;
+  --light-brown: #d6c7ae;
+  --med-brown: #bfb29e;
+  --brown: #b3a492;
+  --grass: #ff8a08;
+  --cream: #f5eec8;
+  --grey-green: #d0d4ca;
+  --mehendi: #555843;
+  --yellow: #ffeea9;
 }

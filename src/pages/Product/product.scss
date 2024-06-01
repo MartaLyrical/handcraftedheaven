@@ -1,0 +1,142 @@
+.product {
+    padding: 20px 50px;
+    display: flex;
+    margin-top: 80px;
+    gap: 50px;
+
+    .left {
+        flex: 1;
+        display: flex;
+        gap: 20px;
+
+        .images {
+            flex: 1;
+
+            img {
+                width: 100%;
+                height: 150px;
+                object-fit: cover;
+                cursor: pointer;
+                margin-bottom: 10px;
+            }
+        }
+
+        .mainImg {
+            flex: 5;
+
+            img {
+                width: 100%;
+                max-height: 600px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h1 {
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .price {
+            font-size: 30px;
+            color: var(--grass);
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+        .quantity {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            button {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                border: none;
+                background-color: var(--skin-color);
+
+                &:hover {
+                    background-color: var(--cream);
+                }
+            }
+        }
+
+        .add {
+            width: 250px;
+            padding: 10px;
+            background-color: var(--grass);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            cursor: pointer;
+            border: none;
+            font-weight: 500;
+            transition: all 0.5ms ease-in-out;
+
+            &:hover {
+                background-color: var(--bush-green);
+            }
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+
+            .item {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: var(--bush-green);
+                font-size: 14px;
+
+                &:hover {
+                    color: var(--grass);
+                }
+            }
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            color: var(--mehendi);
+            font-size: 14px;
+            margin-top: 20px;
+
+            hr {
+                width: 200px;
+                border: 1px solid rgb(238, 237, 237);
+            }
+
+        }
+
+        .details {
+            color: var(--bush-green);
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        hr {
+            border: 1px solid rgb(238, 237, 237);
+        }
+
+    }
+}
