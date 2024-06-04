@@ -275,7 +275,7 @@ const products = [
   },
   {
     artisans_id: artisans[0].id,
-    categories_id: categories[0].id,
+    categories_id: categories[1].id,
     subCategories_id: subCategories[1].id,
     productName: 'Bathroom Mirror "',
     description:
