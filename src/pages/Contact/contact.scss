@@ -33,7 +33,8 @@
   .form input[type="password"],
   .form input[type="text"],
   .form input[type="email"],
-  .form input[type="submit"] {
+  .form input[type="submit"],
+  .form textarea {
     inline-size: 100%;
   }
 
@@ -44,7 +45,9 @@
   .login label,
   .login input[type="text"],
   .login input[type="password"],
-  .login input[type="submit"] {
+  .login input[type="email"],
+  .login input[type="submit"],
+  .login textarea {
     border-radius: 0.25rem;
     padding: 1rem;
   }
@@ -57,7 +60,9 @@
   }
 
   .login input[type="password"],
-  .login input[type="text"] {
+  .login input[type="text"],
+  .login input[type="email"],
+  .login textarea {
     background-color: var(--grass);
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
@@ -66,7 +71,11 @@
   .login input[type="password"]:focus,
   .login input[type="password"]:hover,
   .login input[type="text"]:focus,
-  .login input[type="text"]:hover {
+  .login input[type="text"]:hover,
+  .login input[type="email"]:focus,
+  .login input[type="email"]:hover,
+  .login textarea:focus,
+  .login textarea:hover {
     background-color: var(--dried-grass);
   }
 
@@ -100,7 +109,8 @@
       width: 1px;
     }
 
-    input {
+    input,
+    textarea {
       background-image: none;
       border: 0;
       font: inherit;
@@ -142,6 +152,7 @@ p {
 .text--center {
   text-align: center;
 }
+
 /* modules/form.css */
 
 :root {
