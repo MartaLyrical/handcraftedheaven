@@ -7,45 +7,45 @@ import "./contact.scss";
 const Contact = () => {
   return (
     <div className="registerPage">
-      <div class="grid">
+      <div className="grid">
         <h2 className="title">Contact Us</h2>
-
+        <p>Do you have a question? Send us a message.</p>
         <form
           action="https://httpbin.org/post"
           method="POST"
-          class="form login"
+          className="form login"
         >
-          <div class="form__field">
-            <label for="login__username">
-              <svg class="icon">
+          <div className="form__field">
+            <label htmlFor="login__username">
+              <svg className="icon">
                 <use href="#icon-user"></use>
               </svg>
-              <span class="hidden">Name</span>
+              <span className="hidden">Name</span>
             </label>
             <input
-              autocomplete="username"
+              autoComplete="username"
               id="login__username"
               type="text"
               name="username"
-              class="form__input"
+              className="form__input"
               placeholder="Name"
               required
             />
           </div>
 
-          <div class="form__field">
-            <label for="login__username">
-              <svg class="icon">
+          <div className="form__field">
+            <label htmlFor="email">
+              <svg className="icon">
                 <Email />
               </svg>
-              <span class="hidden">Email</span>
+              <span className="hidden">Email</span>
             </label>
             <input
-              autocomplete="email"
+              autoComplete="email"
               id="email"
-              type="text"
+              type="email"
               name="email"
-              class="form__input"
+              className="form__input"
               placeholder="Email"
               required
             />
@@ -69,12 +69,12 @@ const Contact = () => {
             />
           </div>
 
-          <div class="form__field">
+          <div className="form__field">
             <input type="submit" value="Send" />
           </div>
         </form>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icons">
+      <svg xmlns="http://www.w3.org/2000/svg" className="icons">
         <symbol id="icon-arrow-right" viewBox="0 0 1792 1792">
           <path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z" />
         </symbol>
