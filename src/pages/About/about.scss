@@ -52,7 +52,7 @@
       .upper-row {
         display: flex;
         justify-content: space-between;
-        gap: 150px;
+        gap: 5%; /* Adjust gap for responsiveness */
         align-items: center;
 
         h1 {
@@ -64,7 +64,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 150px;
+        gap: 5%; /* Adjust gap for responsiveness */
       }
     }
 
@@ -131,5 +131,30 @@
         }
       }
     }
+  }
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .about .container .middle,
+  .about .container .explore .buttons {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .about .container .middle .upper-row,
+  .about .container .middle .lower-row {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    gap: 20px; /* Adjust gap for smaller screens */
+  }
+
+  .about .container .middle .upper-row h1,
+  .about .container .middle .lower-row h1 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .about .container .explore .buttons button {
+    font-size: 16px; /* Adjust font size for smaller screens */
   }
 }
