@@ -145,7 +145,7 @@ async function seedProducts(client) {
     productName VARCHAR(255) NOT NULL,
     description VARCHAR(500) NOT NULL,
     price INT NOT NULL,
-    pimage_url VARCHAR(255) NOT NULL
+    pimage_url VARCHAR(255) NULL
   );
 `;
 
@@ -155,8 +155,8 @@ async function seedProducts(client) {
     const insertedProducts = await Promise.all(
       products.map(
         (product) => client.sql`
-        INSERT INTO product (artisans_id, categories_id, productName, price, pimage_url)
-        VALUES (${product.artisans_id}, ${product.categories_id}, ${product.productName}, ${product.price}, ${product.pimage_url})
+        INSERT INTO product (artisans_id, categories_id, subcategories_id, productName, description, price, pimage_url)
+        VALUES (${product.artisans_id}, ${product.categories_id}, ${product.subCategories_id}, ${product.productName}, ${product.description}, ${product.price}, ${product.pimage_url})
         ON CONFLICT (id) DO NOTHING;
       `,
       ),
@@ -232,7 +232,7 @@ async function seedSubCategories(client) {
         subCategories.map(async (subcategory) => {
           // const hashedPassword = await bcrypt.hash(login.password, 10);
           return client.sql`
-          INSERT INTO categories (categories_id, name)
+          INSERT INTO subcategories (categories_id, name)
           VALUES (${subcategory.categories_id}, ${subcategory.name})
           ON CONFLICT (id) DO NOTHING;
         `;
@@ -256,10 +256,10 @@ async function main() {
 
   await seedArtisans(client);
   await seedCategories(client);
-  await seedProducts(client);
   await seedSubCategories(client)
   await seedRegister(client);
   await seedLogin(client);
+  await seedProducts(client);
   
 
   await client.end();

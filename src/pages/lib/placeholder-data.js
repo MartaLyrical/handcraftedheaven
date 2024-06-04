@@ -201,17 +201,17 @@ const products = [
   {
     artisans_id: artisans[3].id,
     categories_id: categories[0].id,
-    subcategories_id: subCategories[0].id,
+    subCategories_id: subCategories[2].categories_id,
     productName: "Diamond Necklace",
-    description: "anything you want",
+    description: "Elevate your style with the 'Eternal Sparkle' diamond necklace, a stunning piece of jewelry that exudes sophistication and glamour. This exquisite necklace features a dazzling diamond solitaire, carefully set in a delicate 14k white gold chain, creating a truly breathtaking piece.",
     price: 1000,
     pimage_url:
-      "Elevate your style with the 'Eternal Sparkle' diamond necklace, a stunning piece of jewelry that exudes sophistication and glamour. This exquisite necklace features a dazzling diamond solitaire, carefully set in a delicate 14k white gold chain, creating a truly breathtaking piece.",
+      '',
   },
   {
     artisans_id: artisans[3].id,
     categories_id: categories[0].id,
-    subCategories_id: subCategories[0].id,
+    subCategories_id: subCategories[0].categories_id,
     productName: "Blue Copper Earings",
     description:
       "These exquisite earrings are a masterful blend of serenity and elegance, crafted with the finest blue little gems and copper. The delicate, rounded shapes of the gems are carefully set within a framework of warm, burnished copper, creating a harmonious balance of textures and colors.",
@@ -222,7 +222,7 @@ const products = [
   {
     artisans_id: artisans[1].id,
     categories_id: categories[0].id,
-    subCategories_id: subCategories[0].id,
+    subCategories_id: subCategories[0].categories_id,
     productName: "Diamond Ring",
     description:
       "This exquisite handcrafted diamond ring is a true masterpiece of jewelry-making. Each detail, from the carefully selected diamond to the intricate design, has been meticulously crafted to create a one-of-a-kind piece that exudes elegance and sophistication.",
@@ -232,9 +232,9 @@ const products = [
   },
 
   {
-    artisans_id: artisans[0].id,
+    artisans_id: artisans[4].id,
     categories_id: categories[0].id,
-    subCategories_id: subCategories[0].id,
+    subCategories_id: subCategories[2].categories_id,
     productName: 'Pink Quartz Necklace - "Rosy Glow"',
     description:
       'Add a touch of elegance and sophistication to your wardrobe with this stunning pink quartz necklace. The "Rosy Glow" necklace features a beautiful pink quartz stone, carefully set in a delicate sterling silver chain, creating a truly unique and eye-catching piece.',
@@ -244,9 +244,9 @@ const products = [
   },
 
   {
-    artisans_id: artisans[2].id,
+    artisans_id: artisans[5].id,
     categories_id: categories[0].id,
-    subCategories_id: subCategories[0].id,
+    subCategories_id: subCategories[5].categories_id,
     productName: 'Hair Chain - "Glamorous Glow"',
     description:
       'Add a touch of glamour to your hairstyle with our "Glamorous Glow" hair chain. This stunning accessory features a delicate chain design that adds a sophisticated touch to any hairstyle. Perfect for special occasions or everyday wear, our hair chain is a must-have for anyone who wants to elevate their style.',
@@ -256,7 +256,7 @@ const products = [
   {
     artisans_id: artisans[2].id,
     categories_id: categories[0].id,
-    subCategories_id: subCategories[0].id,
+    subCategories_id: subCategories[6].categories_id,
     productName: 'Kamabands - "Timeless Elegance"',
     description:
       "Elevate your hairstyle with our stunning Kamabands, a unique and elegant hair accessory that adds a touch of sophistication to any look. Inspired by the traditional Japanese Kanzashi, these handcrafted Kamabands are the perfect way to add a touch of cultural flair to your everyday style.",
@@ -264,9 +264,9 @@ const products = [
     pimage_url: " ",
   },
   {
-    artisans_id: artisans[0].id,
-    categories_id: categories[1].id,
-    subCategories_id: subCategories[1].id,
+    artisans_id: artisans[1].id,
+    categories_id: categories[2].id,
+    subCategories_id: subCategories[13].categories_id,
     productName: 'Suede Bag"',
     description:
       "Luxurious suede bag, designed to provide a soft touch and timeless style. Crafted from high-quality suede, this bag features a sleek and sophisticated design that is perfect for both casual and formal occasions.",
@@ -274,9 +274,9 @@ const products = [
     pimage_url: " ",
   },
   {
-    artisans_id: artisans[0].id,
-    categories_id: categories[1].id,
-    subCategories_id: subCategories[1].id,
+    artisans_id: artisans[3].id,
+    categories_id: categories[2].id,
+    subCategories_id: subCategories[12].categories_id,
     productName: 'Bathroom Mirror "',
     description:
       "Stunning bathroom mirror. Crafted from high-quality materials, this mirror features a sleek and modern design that is perfect for both casual and formal occasions.",
