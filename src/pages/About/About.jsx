@@ -10,9 +10,8 @@ const About = () => {
           <div className="bg-about"></div>
           <div className="details">
             <h1>About Us</h1>
-            <p>
-            Handcrafted Haven is a website that showcases the artwork of different artisans. The website allows potential customers to sign in, shop on the portal, and contribute to the fine work of all the artisans on the website. We believe in the philosophy that simplicity is the greatest sophistication. At Handcrafted Haven, we offer simple but high-quality products ranging from all types of jewelry that will catch your eye. Our jewelry ranges from diamond-coated, silver-coated, to gold-coated. Shop for whatever you desire in the comfort of your own home and get the best quality jewelry at an affordable price. We are committed to providing an unforgettable experience. Explore all that we have to offer and remember to sign up to register.
-            </p>
+            <p>The project aims to develop a web application that allows artisans and crafters to display and sell their products.</p>
+            <p>It serves as a virtual marketplace that bridges the gap between creators and customers.</p>
           </div>
         </div>
 
@@ -20,9 +19,42 @@ const About = () => {
           <div className="upper-row">
             <div className="left-col">
               <h1>Our Mission</h1>
-              <p>
-              We strive to become the premier artisan store on earth. By offering the highest quality service to all our customers, we bring together people of all ages. Our goal is to cater to the needs of every individual, from the least affluent to the wealthiest, and provide unparalleled support regardless of their social status.
-              </p>
+              <p>Handcrafted Haven is designed to nurture a sense of community, support local artisans, and advocate for sustainable consumption.</p>
+              <p>We seek to transform how handcrafted items are found, valued, and purchased.</p>
+            </div>
+          </div>
+        </div>
+
+      
+        <div className="middle">
+          <div className="upper-row">
+            <div className="left-col">
+              <h1>Values</h1>
+              <ul>
+                <li>Community Interaction</li>
+                <li>Sustainable Consumption</li>
+                <li>Secure E-commerce</li>
+                <li>Quality Products</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="middle">
+          <div className="upper-row">
+            <div className="left-col">
+              <h1>Social Media</h1>
+              <div className="contactIconsContainer">
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJZcRDzZkmCzCtpDqhBNlglXcPWgwhxQNLWqZNdMbjvDBWRbxDQFXprVKCgqnWmhJSfdRvq">
+                  <img className="contactIcon" src="/email.png" alt="Email" />
+                </a>
+                <a href="https://www.instagram.com/">
+                  <img className="contactIcon" src="/instagram.png" alt="Instagram" />
+                </a>
+                <a href="https://www.facebook.com/">
+                  <img className="contactIcon" src="/facebook.png" alt="Facebook" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
