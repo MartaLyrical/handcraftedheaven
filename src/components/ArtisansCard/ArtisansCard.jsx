@@ -22,13 +22,10 @@ const ArtisansCard = ({ item }) => {
           <label class="artisans-card__like">
             <FavoriteIcon />
           </label>
-
-          <button class="artisans-card__btn">Profile</button>
         </div>
 
         <div class="artisans-card__info">
           <h3 class="artisans-card__name">{item.title}</h3>
-          <p>Small Description</p>
 
           <div class="artisans-card__stars">
             <StarIcon />
@@ -45,3 +42,4 @@ const ArtisansCard = ({ item }) => {
 };
 
 export default ArtisansCard;
+
