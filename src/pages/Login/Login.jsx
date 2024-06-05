@@ -1,19 +1,19 @@
+"use client";
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./login.scss";
+import { useFormState, useFormStatus } from "react-hook-form";
+//import { authenticate } from "../lib/actions";
 
 const Login = () => {
+  // const [errorMessage, dispatch] = useFormState(authenticate, undefined);
   return (
     <div className="loginPage">
       <Navbar />
       <div class="grid">
         <h2 className="title">Welcome Back!</h2>
 
-        <form
-          action="https://httpbin.org/post"
-          method="POST"
-          class="form login"
-        >
+        <form action="https://httpbin.org/post" method="GET" class="form login">
           <div class="form__field">
             <label for="login__username">
               <svg class="icon">
