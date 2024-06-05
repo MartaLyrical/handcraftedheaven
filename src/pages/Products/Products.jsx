@@ -24,30 +24,6 @@ const Products = () => {
         </div>
 
         <div className="filterItem">
-          <h2>Filter by Price</h2>
-          <div className="inputItem">
-            <input
-              type="radio"
-              name="price"
-              id="asc"
-              value="asc"
-              onChange={(e) => setSort("asc")}
-            />
-            <label htmlFor="asc">0 - 100</label>
-          </div>
-          <div className="inputItem">
-            <input
-              type="radio"
-              name="price"
-              id="desc"
-              value="desc"
-              onChange={(e) => setSort("desc")}
-            />
-            <label htmlFor="desc">101 - 300</label>
-          </div>
-        </div>
-
-        <div className="filterItem">
           <h2>Sort by</h2>
           <div className="inputItem">
             <input

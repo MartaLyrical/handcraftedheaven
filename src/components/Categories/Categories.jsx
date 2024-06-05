@@ -8,19 +8,19 @@ const Categories = () => {
       <div className="col">
         <div className="row">
           <img
-            src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-            alt=""
+            src="https://lyricalcorp.com/assets/images/handcraftedheaven/woodworking.png"
+            alt="Woodworking"
           />
           <button>
-            <Link to="/products/woodworking" className="link">
+            <Link to="#" className="link">
               Woodworking
             </Link>
           </button>
         </div>
         <div className="row">
           <img
-            src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-            alt=""
+            src="https://lyricalcorp.com/assets/images/handcraftedheaven/embroidery.png"
+            alt="Embroidery"
           />
           <button>
             <Link to="/products/embroidery" className="link">
@@ -33,8 +33,8 @@ const Categories = () => {
         <div className="row">
           {" "}
           <img
-            src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-            alt=""
+            src="https://lyricalcorp.com/assets/images/handcraftedheaven/jewelry.png"
+            alt="Jewelry"
           />
           <button>
             <Link to="/products/jewelry" className="link">
@@ -47,8 +47,8 @@ const Categories = () => {
         <div className="row">
           {" "}
           <img
-            src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-            alt=""
+            src="https://lyricalcorp.com/assets/images/handcraftedheaven/potteryandceramics.png"
+            alt="Potery and Ceramics"
           />
           <button>
             <Link to="/products/ceramics" className="link">
@@ -62,8 +62,8 @@ const Categories = () => {
           <div className="col">
             <div className="row">
               <img
-                src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-                alt=""
+                src="https://lyricalcorp.com/assets/images/handcraftedheaven/papercrafts.png"
+                alt="PaperCrafts"
               />
               <button>
                 <Link to="/products/paperCrafts" className="link">
@@ -76,8 +76,8 @@ const Categories = () => {
             <div className="row">
               {" "}
               <img
-                src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-                alt=""
+                src="https://lyricalcorp.com/assets/images/handcraftedheaven/accessories.png"
+                alt="Accessories"
               />
               <button>
                 <Link to="/products/acc" className="link">
@@ -89,8 +89,8 @@ const Categories = () => {
         </div>
         <div className="row">
           <img
-            src="https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png"
-            alt=""
+            src="https://lyricalcorp.com/assets/images/handcraftedheaven/handcrafts.png"
+            alt="HandCrafts"
           />
           <button>
             <Link to="/products/handCrafts" className="link">

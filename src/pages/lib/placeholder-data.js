@@ -67,22 +67,11 @@ const subCategories = [
   },
   {
     categories_id: categories[1].id,
-    name: "Decor",
+    name: "Clothing",
   },
+
   {
     categories_id: categories[1].id,
-    name: "Baskets",
-  },
-  {
-    categories_id: categories[1].id,
-    name: "Statues",
-  },
-  {
-    categories_id: categories[1].id,
-    name: "Paintings",
-  },
-  {
-    categories_id: categories[2].id,
     name: "Shoes",
   },
   {
@@ -99,28 +88,34 @@ const subCategories = [
   },
   {
     categories_id: categories[3].id,
-    name: "Clothing",
+    name: "Decor",
+  },
+  {
+    categories_id: categories[3].id,
+    name: "Paintings",
+  },
+  {
+    categories_id: categories[3].id,
+    name: "Baskets",
   },
   {
     categories_id: categories[4].id,
-    name: "Earings",
+    name: "Vases",
   },
   {
-    categories_id: categories[4].id,
-    name: "Necklaces",
-  },
-  {
-    categories_id: categories[4].id,
-    name: "Bracelets",
-  },
-  {
-    categories_id: categories[5].id,
-    name: "Origami",
+    categories_id: categories[1].id,
+    name: "Statues",
   },
   {
     categories_id: categories[5].id,
     name: "Small Furnitures",
   },
+
+  {
+    categories_id: categories[5].id,
+    name: "Origami",
+  },
+
   {
     categories_id: categories[5].id,
     name: "ScrapBooking",
@@ -203,10 +198,10 @@ const products = [
     categories_id: categories[0].id,
     subCategories_id: subCategories[2].categories_id,
     productName: "Diamond Necklace",
-    description: "Elevate your style with the 'Eternal Sparkle' diamond necklace, a stunning piece of jewelry that exudes sophistication and glamour. This exquisite necklace features a dazzling diamond solitaire, carefully set in a delicate 14k white gold chain, creating a truly breathtaking piece.",
+    description:
+      "Elevate your style with the 'Eternal Sparkle' diamond necklace, a stunning piece of jewelry that exudes sophistication and glamour. This exquisite necklace features a dazzling diamond solitaire, carefully set in a delicate 14k white gold chain, creating a truly breathtaking piece.",
     price: 1000,
-    pimage_url:
-      '',
+    pimage_url: "",
   },
   {
     artisans_id: artisans[3].id,
