@@ -1,15 +1,15 @@
-import Home from "./pages/Home/Home";
-import Product from "./pages/Product/Product";
-import Products from "./pages/Products/Products";
+import Home from "./page/Home/Home";
+import Product from "./page/Product/Product";
+import Products from "./page/Products/Products";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Login from "./pages/Login/Login";
-import About from "./pages/About/About";
-import Wishlist from "./pages/Wishlist/Wishlist";
-import Register from "./pages/Register/Register";
-import Artisans from "./pages/Artisans/Artisans";
-import Contact from "./pages/Contact/Contact";
+import Login from "./page/Login/Login";
+import About from "./page/About/About";
+import Wishlist from "./page/Wishlist/Wishlist";
+import Register from "./page/Register/Register";
+import Artisans from "./page/Artisans/Artisans";
+import Contact from "./page/Contact/Contact";
 
 const Layout = () => {
   return (

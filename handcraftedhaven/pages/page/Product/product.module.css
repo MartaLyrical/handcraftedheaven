@@ -1,0 +1,140 @@
+..product {
+    padding: 20px 50px;
+    display: flex;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.product .left {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.product .left .images {
+    flex: 1;
+}
+
+.product .left .images img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.product .left .mainImg {
+    flex: 5;
+}
+
+.product .left .mainImg img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.product .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product .right h1 {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.product .right .price {
+    font-size: 30px;
+    color: var(--grass);
+    font-weight: 700;
+}
+
+.product .right p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.product .right .quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product .right .quantity button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background-color: var(--skin-color);
+}
+
+.product .right .quantity button:hover {
+    background-color: var(--cream);
+}
+
+.product .right .add {
+    width: 250px;
+    padding: 10px;
+    background-color: var(--grass);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    transition: all 0.5ms ease-in-out;
+}
+
+.product .right .add:hover {
+    background-color: var(--bush-green);
+}
+
+.product .right .links {
+    display: flex;
+    gap: 20px;
+}
+
+.product .right .links .item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--bush-green);
+    font-size: 14px;
+}
+
+.product .right .links .item:hover {
+    color: var(--grass);
+}
+
+.product .right .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--mehendi);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.product .right .info hr {
+    width: 200px;
+    border: 1px solid rgb(238, 237, 237);
+}
+
+.product .right .details {
+    color: var(--bush-green);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.product hr {
+    border: 1px solid rgb(238, 237, 237);
+}

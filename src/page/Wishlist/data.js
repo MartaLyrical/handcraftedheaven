@@ -1,0 +1,42 @@
+export const data = [
+  {
+    id: 1,
+    img1: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
+    title: "Lorem Ipsum",
+    oldPrice: 300,
+    newPrice: 250,
+    review: 12,
+  },
+  {
+    id: 2,
+    img1: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
+    title: "Lorem Ipsum",
+    oldPrice: 400,
+    newPrice: 300,
+    review: 16,
+  },
+  {
+    id: 3,
+    img1: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
+    title: "Lorem Ipsum",
+    oldPrice: 150,
+    newPrice: 70,
+    review: 5,
+  },
+  {
+    id: 4,
+    img1: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
+    title: "Lorem Ipsum",
+    oldPrice: 1000,
+    newPrice: 650,
+    review: 311,
+  },
+  {
+    id: 5,
+    img1: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
+    title: "Lorem Ipsum",
+    oldPrice: 150,
+    newPrice: 70,
+    review: 5,
+  },
+];

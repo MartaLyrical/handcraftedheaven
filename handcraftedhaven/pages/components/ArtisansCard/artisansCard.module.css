@@ -1,0 +1,116 @@
+.artisansCard .artisans-card {
+  max-width: 200px;
+  flex-basis: 180px;
+  flex-grow: 1;
+  background-color: var(--white);
+}
+
+@media screen and (max-width: 440px) {
+  .artisansCard .artisans-card {
+    max-width: 100%;
+  }
+}
+
+.artisansCard .artisans-card__images {
+  cursor: pointer;
+  position: relative;
+}
+
+.artisansCard .artisans-card__images:hover .artisans-card__btn,
+.artisansCard .artisans-card__images:focus .artisans-card__btn {
+  display: block;
+}
+
+.artisansCard .artisans-card__img--hidden {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+.artisansCard .artisans-card__img--hidden:hover {
+  opacity: 1;
+}
+
+.artisansCard .artisans-card__info {
+  padding: 10px;
+  text-align: center;
+}
+
+.artisansCard .artisans-card__name {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.artisansCard .artisans-card__price {
+  color: var(--mehendi);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.artisansCard .artisans-card__promo {
+  color: var(--brown);
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+
+.artisansCard .artisans-card__stars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  color: var(--grass);
+}
+
+.artisansCard .artisans-card__review-count {
+  color: var(--brown-orange);
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.artisansCard .artisans-card__like {
+  color: var(--skin-color);
+  cursor: pointer;
+  font-size: 30px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+}
+
+.artisansCard .artisans-card__like-check,
+.artisansCard .artisans-card__heart--filled {
+  display: none;
+}
+
+.artisansCard .artisans-card__like-check:checked + .artisans-card__heart {
+  display: none;
+}
+
+.artisansCard .artisans-card__like-check:checked + .artisans-card__heart--filled {
+  display: inline;
+}
+
+.artisansCard .artisans-card__btn {
+  background-color: var(--grass);
+  border-radius: 5px;
+  border: none;
+  color: var(--skin-color);
+  cursor: pointer;
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  left: 50%;
+  padding: 10px 15px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.artisansCard .artisans-card__btn:hover {
+  background-color: var(--brown-orange);
+}
