@@ -23,13 +23,12 @@ const ArtisansCard = ({ item }) => {
         <FavoriteIcon />
       </label>
 
-      <button className={styles["artisans-card__btn"]}>Profile</button>
+
     </div>
 
     <div className={styles["artisans-card__info"]}>
       <h3 className={styles["artisans-card__name"]}>{item.title}</h3>
-      <p>Small Description</p>
-
+      
       <div className={styles["artisans-card__stars"]}>
         <StarIcon />
         <StarIcon />
