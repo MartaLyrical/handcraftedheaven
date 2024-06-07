@@ -12,8 +12,8 @@ const Register = () => {
         <h2 className="title">Registration</h2>
 
         <form
-          action="https://httpbin.org/post"
-          method="POST"
+          action="https://handcraftedheaven-self.vercel.app"
+          method=""
           class="form login"
         >
           <div class="form__field">

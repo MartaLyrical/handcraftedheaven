@@ -11,8 +11,8 @@ const Contact = () => {
         <h2 className="title">Contact Us</h2>
         <p>Do you have a question? Send us a message.</p>
         <form
-          action="https://httpbin.org/post"
-          method="POST"
+          action="https://handcraftedheaven-self.vercel.app"
+          method=""
           className="form login"
         >
           <div className="form__field">

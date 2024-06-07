@@ -13,7 +13,11 @@ const Login = () => {
       <div class="grid">
         <h2 className="title">Welcome Back!</h2>
 
-        <form action="https://httpbin.org/post" method="GET" class="form login">
+        <form
+          action="https://handcraftedheaven-self.vercel.app"
+          method=""
+          class="form login"
+        >
           <div class="form__field">
             <label for="login__username">
               <svg class="icon">
