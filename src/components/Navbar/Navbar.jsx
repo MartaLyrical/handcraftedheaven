@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="center">
           <Link className="link" to="/">
             {/*<img src={logoUrl} width="30px" height="30px" alt="logo" /> */}
-            HandCrafted Heaven
+            HandCrafted Haven
           </Link>
         </div>
 
