@@ -7,7 +7,7 @@ const Cart = () => {
     {
       id: 1,
       img: "https://lyricalcorp.com/assets/images/handcraftedheaven/Statue.png",
-      title: "Indian Bracelet",
+      title: "Statue",
       desc: " Handcrafted with precision and care, these bangles are a perfect blend of traditional Indian craftsmanship and modern style.",
       price: 280,
     },
