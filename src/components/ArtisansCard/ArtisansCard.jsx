@@ -26,6 +26,7 @@ const ArtisansCard = ({ item }) => {
 
         <div class="artisans-card__info">
           <h3 class="artisans-card__name">{item.title}</h3>
+          <h4 class="artisans-card__info">{item.biography}</h4>
 
           <div class="artisans-card__stars">
             <StarIcon />
@@ -42,4 +43,3 @@ const ArtisansCard = ({ item }) => {
 };
 
 export default ArtisansCard;
-

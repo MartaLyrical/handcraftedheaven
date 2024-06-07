@@ -7,17 +7,17 @@ const Cart = () => {
     {
       id: 1,
       img: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
-      title: "Lorem Ipsum",
-      desc: "Lorem IpsumLorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta nesciunt, fuga veniamtrue",
-      price: 1100,
+      title: "Indian Bracelet",
+      desc: " Handcrafted with precision and care, these bangles are a perfect blend of traditional Indian craftsmanship and modern style.",
+      price: 80,
     },
     {
       id: 2,
-      img: "https://lyricalcorp.com/assets/images/handcraftedheaven/bracelets.png",
-      title: "Lorem Ipsum",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta nesciunt, fuga veniam.",
+      img: "https://lyricalcorp.com/assets/images/handcraftedheaven/Diamond%20Ring.png",
+      title: "Diamond Ring",
+      desc: "This exquisite handcrafted diamond ring is a true masterpiece of jewelry-making. Each detail, from the carefully selected diamond to the intricate design, has been meticulously crafted to create a one-of-a-kind piece that exudes elegance and sophistication.",
       isNew: true,
-      price: 500,
+      price: 2080,
     },
   ];
 
@@ -38,7 +38,7 @@ const Cart = () => {
       <div className="total">
         <span>SubTotalL</span>
         <span>:</span>
-        <span>$1050</span>
+        <span>$2160</span>
       </div>
       <button>CHECKOUT</button>
       <span className="reset">Reset Cart</span>
